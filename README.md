@@ -91,6 +91,12 @@
 ## 🤖 AUTONOMOUS AGENT NETWORK
 
 <div align="center">
+<img src="agent-network.svg" width="100%"/>
+</div>
+
+<br/>
+
+<div align="center">
 
 <table>
 <tr>
@@ -297,24 +303,32 @@
 
 <div align="center">
 
-```
-Bridge AI OS is a modular, extensible AI operating system designed to
-orchestrate agents, tools, and workflows into production-grade systems.
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=2000&color=00F7FF&center=true&vCenter=true&width=700&lines=A+modular+AI+operating+system+that+orchestrates;agents,+tools,+and+workflows+into;production-grade+deployable+infrastructure." alt="Description" />
 
-It bridges the gap between fragmented AI capabilities and unified,
-deployable pipelines — turning chaos into infrastructure.
+</div>
 
-  ┌──────────────────────────────────────────────────────────┐
-  │  BEFORE              │  AFTER (Bridge AI OS)             │
-  ├──────────────────────┼───────────────────────────────────┤
-  │  Fragmented AI tools │  Unified agent swarm              │
-  │  Manual workflows    │  Autonomous pipelines             │
-  │  No billing layer    │  Native revenue engine            │
-  │  Siloed data stores  │  Federated persistence tier       │
-  │  Single domain       │  26-domain CDN mesh               │
-  │  Trust-based auth    │  Zero-trust security fabric       │
-  └──────────────────────┴───────────────────────────────────┘
+<br/>
+
+```diff
+@@                  BEFORE  vs  AFTER                     @@
+
+- Fragmented AI tools         →  Unified agent swarm
+- Manual workflows            →  Autonomous pipelines
+- No billing layer            →  Native revenue engine
+- Siloed data stores          →  Federated persistence tier
+- Single domain               →  26-domain CDN mesh
+- Trust-based auth            →  Zero-trust security fabric
+- No visual intelligence      →  SVG Skill Graph engine
+- One-off scripts             →  GOD MODE orchestration
 ```
+
+---
+
+## 🖥️ QUICKSTART
+
+<div align="center">
+
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=900&pause=150&color=00FF88&background=0D111700&center=true&vCenter=true&multiline=true&width=600&height=160&lines=$+git+clone+bridge-ai-os;$+docker-compose+up+-d;$+curl+http://localhost:8080/health;{+%22status%22:+%22operational%22,+%22agents%22:+8+};$+open+http://god.bridge-ai-os.com;WELCOME+TO+GOD+MODE+🔮" alt="Quickstart" />
 
 </div>
 
@@ -328,17 +342,26 @@ deployable pipelines — turning chaos into infrastructure.
 
 <div align="center">
 
-**⚡ Engineered for domination. Designed for infinity. ⚡**
+```
+ ╔═════════════════════════════════════════════════════════╗
+ ║                                                         ║
+ ║   ⚡ Engineered for domination. Designed for infinity.  ║
+ ║                                                         ║
+ ║         BUILD  ·  BRIDGE  ·  DEPLOY  ·  REPEAT          ║
+ ║                                                         ║
+ ╚═════════════════════════════════════════════════════════╝
+```
 
 <br/>
 
-![Built with](https://img.shields.io/badge/Powered%20by-Claude%20AI-7c3aed?style=flat-square&logo=anthropic&logoColor=white)
-![Cloudflare](https://img.shields.io/badge/Edge-Cloudflare-F38020?style=flat-square&logo=cloudflare&logoColor=white)
-![Uptime](https://img.shields.io/badge/Uptime-99.9%25-00ff88?style=flat-square)
-![License](https://img.shields.io/badge/License-Proprietary-ff6b6b?style=flat-square)
+![Built with](https://img.shields.io/badge/Powered%20by-Claude%20AI-7c3aed?style=for-the-badge&logo=anthropic&logoColor=white)
+![Cloudflare](https://img.shields.io/badge/Edge-Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white)
+![Uptime](https://img.shields.io/badge/Uptime-99.9%25-00ff88?style=for-the-badge)
+![License](https://img.shields.io/badge/License-Proprietary-ff6b6b?style=for-the-badge)
+![Agents](https://img.shields.io/badge/Agents-8%20Active-00f7ff?style=for-the-badge)
 
 <br/>
 
-*© Bridge AI OS — All Systems Operational — v0 → ∞*
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=12&duration=4000&pause=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=©+BRIDGE+AI+OS+—+ALL+SYSTEMS+OPERATIONAL+—+v0+→+∞" alt="Footer" />
 
 </div>
