@@ -185,29 +185,56 @@
 
 <div align="center">
 
+**`── LANGUAGES & FRAMEWORKS ──`**
+
 ![Node.js](https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![FastAPI](https://img.shields.io/badge/FastAPI-005571?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Vite](https://img.shields.io/badge/Vite-646CFF?style=for-the-badge&logo=vite&logoColor=white)
+![Express](https://img.shields.io/badge/Express-000000?style=for-the-badge&logo=express&logoColor=white)
+
+**`── DATABASES & STORAGE ──`**
 
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-316192?style=for-the-badge&logo=postgresql&logoColor=white)
 ![Redis](https://img.shields.io/badge/Redis-DD0031?style=for-the-badge&logo=redis&logoColor=white)
 ![Neo4j](https://img.shields.io/badge/Neo4j-018bff?style=for-the-badge&logo=neo4j&logoColor=white)
 ![Supabase](https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white)
 ![SQLite](https://img.shields.io/badge/SQLite-07405E?style=for-the-badge&logo=sqlite&logoColor=white)
+![MongoDB](https://img.shields.io/badge/MongoDB-4EA94B?style=for-the-badge&logo=mongodb&logoColor=white)
 
+**`── INFRASTRUCTURE & DEVOPS ──`**
+
+![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
 ![Nginx](https://img.shields.io/badge/Nginx-009639?style=for-the-badge&logo=nginx&logoColor=white)
 ![Cloudflare](https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=Cloudflare&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2CA5E0?style=for-the-badge&logo=docker&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=github-actions&logoColor=white)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
+
+**`── SECURITY & PROTOCOLS ──`**
+
 ![JWT](https://img.shields.io/badge/JWT-000000?style=for-the-badge&logo=JSON%20web%20tokens&logoColor=white)
 ![Web3](https://img.shields.io/badge/Web3-F16822?style=for-the-badge&logo=web3dotjs&logoColor=white)
+![WebSocket](https://img.shields.io/badge/WebSocket-010101?style=for-the-badge&logo=socketdotio&logoColor=white)
+![OpenAI](https://img.shields.io/badge/OpenAI-412991?style=for-the-badge&logo=openai&logoColor=white)
+![Anthropic](https://img.shields.io/badge/Claude_AI-7C3AED?style=for-the-badge&logo=anthropic&logoColor=white)
+![REST](https://img.shields.io/badge/REST_API-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 
 <br/>
 
-<img src="https://skillicons.dev/icons?i=nodejs,python,ts,react,fastapi,docker,postgres,redis,nginx,cloudflare,vite,sqlite&theme=dark&perline=6" />
+<img src="https://skillicons.dev/icons?i=nodejs,python,ts,js,react,fastapi,docker,postgres,redis,neo4j,nginx,cloudflare,vite,mongodb,linux,git&theme=dark&perline=8" />
 
+</div>
+
+---
+
+## 📊 PROFICIENCY MATRIX
+
+<div align="center">
+<img src="skill-bars.svg" width="100%"/>
 </div>
 
 ---
@@ -264,9 +291,7 @@
 ## 💀 TERMINAL — LIVE BOOT SEQUENCE
 
 <div align="center">
-
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=14&duration=1100&pause=200&color=00FF88&background=0D111700&center=true&vCenter=true&multiline=true&width=750&height=220&lines=◈+BRIDGE+AI+OS+v0.∞+BOOT+SEQUENCE+INITIATED;[+OK+]+Loading+kernel+modules;[+OK+]+Mounting+PostgreSQL+persistence+layer;[+OK+]+Starting+Redis+cache+daemon;[+OK+]+Connecting+to+Neo4j+graph+engine;[+OK+]+Spawning+Super+Brain+AI+twin;[+OK+]+Initializing+agent+swarm+(8+agents);[+OK+]+Establishing+26-domain+CDN+mesh;[+OK+]+Zero-Trust+auth+fabric+engaged;[+OK+]+GOD+MODE+topology+dashboard+online;◈+ALL+SYSTEMS+OPERATIONAL+—+WELCOME,+ARCHITECT" alt="Terminal Boot" />
-
+<img src="terminal-boot.svg" width="100%"/>
 </div>
 
 ---
