@@ -1,0 +1,124 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 310" width="860" height="310">
+<defs>
+  <filter id="glow" x="-5%" y="-5%" width="110%" height="110%">
+    <feGaussianBlur stdDeviation="1.5" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="sl" x="0" y="0" width="1" height="4" patternUnits="userSpaceOnUse">
+    <rect y="0" width="1" height="1" fill="rgba(0,0,0,0.18)"/>
+  </pattern>
+</defs>
+<style>
+  .m{font-family:'Courier New',Courier,monospace}
+  .label{font-size:10px;fill:#8b949e;text-anchor:end}
+  .pct{font-size:10px;fill:#484f58}
+</style>
+
+<!-- Background -->
+<rect width="860" height="310" fill="#0d1117"/>
+<rect width="860" height="310" fill="url(#sl)" opacity=".2"/>
+
+<!-- Border -->
+<rect x="1" y="1" width="858" height="308" fill="none" stroke="#21262d" stroke-width="1"/>
+
+<!-- Header -->
+<text x="430" y="30" font-family="Courier New" font-size="11" fill="#00f7ff" text-anchor="middle" letter-spacing="4" opacity=".7">TECH PROFICIENCY MATRIX</text>
+<line x1="30" y1="40" x2="830" y2="40" stroke="#21262d" stroke-width="1"/>
+
+<!-- ─── ROW DEFINITIONS ───
+  Track: x=140, width=580, height=12, rx=3
+  Labels: x=130 (right-aligned)
+  Pct: x=728
+  Row y values: 60,88,116,144,172,200,228,256,284 (center of bar)
+  Bar top = row_y - 6, bar baseline text = row_y + 4
+-->
+
+<!-- ROW 1: Node.js  90% → 522px -->
+<text class="m label" x="130" y="65">Node.js</text>
+<rect x="140" y="55" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="55" width="0" height="12" fill="#00ff88" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="522" dur="1.4s" begin=".3s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="65">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.75s" fill="freeze"/>90%</text>
+
+<!-- ROW 2: Python  86% → 499px -->
+<text class="m label" x="130" y="93">Python</text>
+<rect x="140" y="83" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="83" width="0" height="12" fill="#00ff88" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="499" dur="1.4s" begin=".5s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="93">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.95s" fill="freeze"/>86%</text>
+
+<!-- ROW 3: Docker  82% → 476px -->
+<text class="m label" x="130" y="121">Docker</text>
+<rect x="140" y="111" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="111" width="0" height="12" fill="#00ff88" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="476" dur="1.4s" begin=".7s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="121">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.15s" fill="freeze"/>82%</text>
+
+<!-- ROW 4: PostgreSQL  78% → 452px -->
+<text class="m label" x="130" y="149">PostgreSQL</text>
+<rect x="140" y="139" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="139" width="0" height="12" fill="#00f7ff" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="452" dur="1.4s" begin=".9s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="149">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.35s" fill="freeze"/>78%</text>
+
+<!-- ROW 5: Redis  74% → 429px -->
+<text class="m label" x="130" y="177">Redis</text>
+<rect x="140" y="167" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="167" width="0" height="12" fill="#00f7ff" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="429" dur="1.4s" begin="1.1s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="177">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.55s" fill="freeze"/>74%</text>
+
+<!-- ROW 6: React + Vite  70% → 406px -->
+<text class="m label" x="130" y="205">React / Vite</text>
+<rect x="140" y="195" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="195" width="0" height="12" fill="#00f7ff" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="406" dur="1.4s" begin="1.3s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="205">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.75s" fill="freeze"/>70%</text>
+
+<!-- ROW 7: TypeScript  66% → 383px -->
+<text class="m label" x="130" y="233">TypeScript</text>
+<rect x="140" y="223" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="223" width="0" height="12" fill="#4a9eff" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="383" dur="1.4s" begin="1.5s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="233">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.95s" fill="freeze"/>66%</text>
+
+<!-- ROW 8: Neo4j  60% → 348px -->
+<text class="m label" x="130" y="261">Neo4j</text>
+<rect x="140" y="251" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="251" width="0" height="12" fill="#4a9eff" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="348" dur="1.4s" begin="1.7s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="261">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="3.15s" fill="freeze"/>60%</text>
+
+<!-- ROW 9: Nginx + Cloudflare  55% → 319px -->
+<text class="m label" x="130" y="289">Nginx / CF</text>
+<rect x="140" y="279" width="580" height="12" fill="#161b22" rx="3"/>
+<rect x="140" y="279" width="0" height="12" fill="#4a9eff" rx="3" filter="url(#glow)">
+  <animate attributeName="width" from="0" to="319" dur="1.4s" begin="1.9s" fill="freeze"/>
+</rect>
+<text class="m pct" x="730" y="289">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="3.35s" fill="freeze"/>55%</text>
+
+<!-- Legend -->
+<rect x="740" y="55" width="10" height="10" fill="#00ff88" rx="2"/>
+<text x="754" y="64" font-family="Courier New" font-size="8" fill="#484f58">≥80%</text>
+<rect x="740" y="72" width="10" height="10" fill="#00f7ff" rx="2"/>
+<text x="754" y="81" font-family="Courier New" font-size="8" fill="#484f58">60–79%</text>
+<rect x="740" y="89" width="10" height="10" fill="#4a9eff" rx="2"/>
+<text x="754" y="98" font-family="Courier New" font-size="8" fill="#484f58">≤59%</text>
+</svg>

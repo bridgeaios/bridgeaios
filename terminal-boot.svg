@@ -1,0 +1,122 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 395" width="860" height="395">
+<defs>
+  <filter id="g1" x="-5%" y="-10%" width="110%" height="120%">
+    <feGaussianBlur stdDeviation="1.8" result="blur"/>
+    <feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge>
+  </filter>
+  <pattern id="sl" x="0" y="0" width="1" height="4" patternUnits="userSpaceOnUse">
+    <rect y="0" width="1" height="1" fill="rgba(0,0,0,0.15)"/>
+  </pattern>
+</defs>
+<style>
+  .m{font-family:'Courier New',Courier,monospace;font-size:12.5px}
+  .g{fill:#00ff88}.c{fill:#00f7ff}.w{fill:#c9d1d9}.d{fill:#484f58}.y{fill:#e3b341}.r{fill:#ff6b6b}
+  @keyframes blink{0%,49%{opacity:1}50%,100%{opacity:0}}
+  .cur{animation:blink 1s 3.45s infinite;opacity:0}
+</style>
+
+<!-- Window background -->
+<rect width="860" height="395" fill="#0d1117" rx="8"/>
+<!-- CRT scanlines overlay -->
+<rect width="860" height="395" fill="url(#sl)" rx="8" opacity=".3"/>
+<!-- Title bar -->
+<rect width="860" height="32" fill="#161b22" rx="8"/>
+<rect y="16" width="860" height="16" fill="#161b22"/>
+<!-- Traffic light buttons -->
+<circle cx="22" cy="16" r="6" fill="#ff5f57"/>
+<circle cx="22" cy="16" r="3" fill="rgba(0,0,0,.2)"/>
+<circle cx="42" cy="16" r="6" fill="#febc2e"/>
+<circle cx="62" cy="16" r="6" fill="#28c840"/>
+<!-- Window title -->
+<text class="m d" x="430" y="21" text-anchor="middle" font-size="11">bridge-ai-os  ─  /boot/system.sh</text>
+<!-- Title bar separator -->
+<line x1="0" y1="32" x2="860" y2="32" stroke="#30363d" stroke-width="1"/>
+
+<!-- LINE 1: Prompt -->
+<text class="m" x="20" y="54" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin=".3s" fill="freeze"/>
+  <tspan class="g">bridge@ai-os</tspan><tspan class="d">:</tspan><tspan class="c">~</tspan><tspan class="d">$</tspan><tspan class="w"> ./boot.sh --all-services --god-mode</tspan>
+</text>
+
+<!-- LINE 2: Blank + Header -->
+<text class="m c" x="20" y="80" opacity="0" filter="url(#g1)">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin=".7s" fill="freeze"/>
+  ◈  BRIDGE AI OS  v0.∞  ──  SYSTEM INITIALIZATION SEQUENCE
+</text>
+<text class="m d" x="20" y="96" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin=".85s" fill="freeze"/>
+  ─────────────────────────────────────────────────────────────────────────────
+</text>
+
+<!-- [OK] LINES — staggered 0.18s apart -->
+<text class="m" x="20" y="116" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.0s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Kernel modules loaded</tspan><tspan class="d"> ─────────────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="136" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.18s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">PostgreSQL persistence layer</tspan><tspan class="d"> ─────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="156" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.36s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Redis cache daemon</tspan><tspan class="d"> ───────────────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="176" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.54s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Neo4j graph engine</tspan><tspan class="d"> ───────────────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="196" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.72s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Supabase edge runtime</tspan><tspan class="d"> ──────────────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="216" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="1.9s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Super Brain AI twin spawned</tspan><tspan class="d"> ─────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="236" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.08s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Agent swarm initialized</tspan><tspan class="d"> ─ (8 agents) ──────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="256" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.26s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">26-domain Cloudflare CDN mesh</tspan><tspan class="d"> ──────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="276" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.44s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Zero-Trust JWT + SIWE auth fabric</tspan><tspan class="d"> ─────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="296" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.62s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">SVG Skill Engine + React SPA</tspan><tspan class="d"> ────────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="316" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.8s" fill="freeze"/>
+  <tspan class="g">[ OK ]</tspan><tspan class="d">  </tspan><tspan class="w">Nginx TLS 1.3 + UFW firewall</tspan><tspan class="d"> ────────────────────────────────── </tspan><tspan class="g">done</tspan>
+</text>
+<text class="m" x="20" y="336" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="2.98s" fill="freeze"/>
+  <tspan class="y">[ ** ]</tspan><tspan class="d">  </tspan><tspan class="w">GOD MODE topology dashboard</tspan><tspan class="d"> ───────────────────────────────── </tspan><tspan class="y">ACTIVE</tspan>
+</text>
+
+<!-- STATUS -->
+<text class="m d" x="20" y="355" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="3.1s" fill="freeze"/>
+  ─────────────────────────────────────────────────────────────────────────────
+</text>
+<text class="m" x="20" y="372" opacity="0" filter="url(#g1)">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="3.2s" fill="freeze"/>
+  <tspan class="c">◈  ALL SYSTEMS OPERATIONAL  </tspan><tspan class="d">──  uptime: </tspan><tspan class="g">99.9%  </tspan><tspan class="d">agents: </tspan><tspan class="g">8  </tspan><tspan class="d">domains: </tspan><tspan class="g">26</tspan>
+</text>
+
+<!-- FINAL PROMPT + CURSOR -->
+<text class="m" x="20" y="390" opacity="0">
+  <animate attributeName="opacity" from="0" to="1" dur=".01s" begin="3.35s" fill="freeze"/>
+  <tspan class="g">bridge@ai-os</tspan><tspan class="d">:</tspan><tspan class="c">~</tspan><tspan class="d">$</tspan><tspan class="w"> </tspan>
+</text>
+<text class="m g cur" x="140" y="390" font-size="14">█</text>
+
+<!-- Moving scanline sweep -->
+<rect x="0" y="32" width="860" height="4" fill="rgba(0,247,255,.04)" rx="0">
+  <animateTransform attributeName="transform" type="translate" values="0,0;0,363" dur="4s" repeatCount="indefinite"/>
+</rect>
+</svg>
