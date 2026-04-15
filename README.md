@@ -1,89 +1,46 @@
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
-<!--  BRIDGE AI OS — GitHub Profile README                                     -->
-<!--  Copy this file as README.md into the bridgeaios/bridgeaios repository.   -->
-<!-- ═══════════════════════════════════════════════════════════════════════════ -->
+# Bridge AI OS
 
-<!-- ANIMATED HEADER BANNER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0a0a0a,50:1a1a2e,100:16213e&height=220&section=header&text=BRIDGE%20AI%20OS&fontSize=72&fontColor=00ff88&animation=fadeIn&fontAlignY=38&desc=Modular%20AI%20Infrastructure%20%E2%80%94%20Build.%20Bridge.%20Deploy.&descAlignY=60&descSize=20&descColor=a0f0d0" alt="Bridge AI OS animated header banner" />
-</p>
+[![Status](https://img.shields.io/badge/status-operational-brightgreen.svg)](https://bridge-ai-os.com)
+[![Version](https://img.shields.io/badge/version-v0→∞-blue.svg)](https://github.com/bridgeaios/THE-BRIDGE-AI-OS-V0/releases)
+[![License](https://img.shields.io/badge/license-MIT-green.svg)](LICENSE)
 
-<!-- TYPING ANIMATION -->
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=700&size=26&pause=1000&color=00FF88&center=true&vCenter=true&width=800&lines=⚡+AI+Operating+System+for+Production+Workloads;🧠+Modular+Agents+%2B+Real-Time+Orchestration;🔗+26+Domains+%7C+5-Tier+Architecture;🚀+Build+AI+Pipelines+in+Minutes;🛡️+Secure+%7C+Scalable+%7C+Composable" alt="Animated typing text showcasing Bridge AI OS features" />
-</p>
+> The Operating System for Production-Grade AI Workflow Orchestration
 
----
+Bridge AI OS is a modular, extensible operating system for orchestrating AI workflows, tools, and agents into cohesive, production-ready systems. It bridges data, models, and interfaces—turning fragmented AI capabilities into unified, deployable pipelines.
 
-<!-- ASCII ART LOGO -->
-<p align="center">
+## ✨ Features
 
-```
-██████╗ ██████╗ ██╗██████╗  ██████╗ ███████╗
-██╔══██╗██╔══██╗██║██╔══██╗██╔════╝ ██╔════╝
-██████╔╝██████╔╝██║██║  ██║██║  ███╗█████╗  
-██╔══██╗██╔══██╗██║██║  ██║██║   ██║██╔══╝  
-██████╔╝██║  ██║██║██████╔╝╚██████╔╝███████╗
-╚═════╝ ╚═╝  ╚═╝╚═╝╚═════╝  ╚═════╝ ╚══════╝
- █████╗ ██╗     ██████╗ ███████╗
-██╔══██╗██║    ██╔═══██╗██╔════╝
-███████║██║    ██║   ██║███████╗
-██╔══██║██║    ██║   ██║╚════██║
-██║  ██║██║    ╚██████╔╝███████║
-╚═╝  ╚═╝╚═╝     ╚═════╝ ╚══════╝  v0 → ∞
-```
-
-</p>
-
----
-
-<!-- ANIMATED PULSE BADGES -->
-<p align="center">
-  <img src="https://img.shields.io/badge/STATUS-OPERATIONAL-00ff88?style=for-the-badge&logo=statuspage&logoColor=black&labelColor=0a0a0a" alt="System status: operational" />
-  <img src="https://img.shields.io/badge/TIER-PRODUCTION-0099ff?style=for-the-badge&logo=vercel&logoColor=white&labelColor=0a0a0a" alt="Production tier" />
-  <img src="https://img.shields.io/badge/DOMAINS-26-ff6b6b?style=for-the-badge&logo=cloudflare&logoColor=white&labelColor=0a0a0a" alt="26 domains active" />
-  <img src="https://img.shields.io/badge/AGENTS-ONLINE-ffd700?style=for-the-badge&logo=openai&logoColor=black&labelColor=0a0a0a" alt="AI agents online" />
-</p>
-
-<p align="center">
-  <img src="https://img.shields.io/badge/Node.js-339933?style=for-the-badge&logo=nodedotjs&logoColor=white" alt="Node.js" />
-  <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python" />
-  <img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=react&logoColor=black" alt="React" />
-  <img src="https://img.shields.io/badge/PostgreSQL-4169E1?style=for-the-badge&logo=postgresql&logoColor=white" alt="PostgreSQL" />
-  <img src="https://img.shields.io/badge/Redis-DC382D?style=for-the-badge&logo=redis&logoColor=white" alt="Redis" />
-  <img src="https://img.shields.io/badge/Supabase-3ECF8E?style=for-the-badge&logo=supabase&logoColor=white" alt="Supabase" />
-  <img src="https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white" alt="Docker" />
-  <img src="https://img.shields.io/badge/Cloudflare-F38020?style=for-the-badge&logo=cloudflare&logoColor=white" alt="Cloudflare" />
-</p>
-
----
+- **🧠 Modular AI Agents**: Composable agents with specialized roles (brain, OSINT, billing, SVG)
+- **🔗 Tool Integration**: Connect any API, database, or service as a first-class tool
+- **⚡ Real-Time Orchestration**: WebSocket-powered dynamic workflow engine
+- **🔐 Zero-Trust Auth**: JWT + SIWE multi-layer authentication fabric
+- **📊 Revenue Engine**: Built-in billing, subscriptions, and monetisation layer
+- **🌐 26-Domain Fabric**: Production CDN mesh across Cloudflare infrastructure
 
 ## 🏗️ System Architecture
 
 ```
-╔══════════════════════════════════════════════════════════════════╗
-║                    BRIDGE AI OS — 5-TIER STACK                   ║
-╠══════════════════════════════════════════════════════════════════╣
-║  TIER 0 ▸ DNS / CDN                                              ║
-║           Cloudflare → 26 domains → production VPS               ║
-╠══════════════════════════════════════════════════════════════════╣
-║  TIER 1 ▸ Reverse Proxy                                          ║
-║           Nginx (80/443) → TLS termination → UFW firewall        ║
-╠══════════════════════════════════════════════════════════════════╣
-║  TIER 2 ▸ Gateway Layer                                          ║
-║           gateway.js :8080 → proxying · SSE · auth façade        ║
-╠══════════════╦═══════════════════════╦═════════════════════════╣
-║  TIER 3A     ║  TIER 3B              ║  TIER 3C                 ║
-║  Node.js     ║  FastAPI (Python)     ║  SVG Skill Engine        ║
-║  server.js   ║  brain.js :8000       ║  :7070                   ║
-║  :3000-5002  ║  BAN engine :8001     ║  React SPA :3020         ║
-╠══════════════╩═══════════════════════╩═════════════════════════╣
-║  TIER 4 ▸ Persistence                                            ║
-║           PostgreSQL │ Redis │ Neo4j │ SQLite │ Supabase         ║
-╚══════════════════════════════════════════════════════════════════╝
+┌─────────────────────────────────────────────────────────────────────┐
+│                    BRIDGE AI OS — 5-TIER STACK                     │
+├─────────────────────────────────────────────────────────────────────┤
+│  TIER 0 ▸ DNS / CDN                                                │
+│           Cloudflare → 26 domains → production VPS                 │
+├─────────────────────────────────────────────────────────────────────┤
+│  TIER 1 ▸ Reverse Proxy                                            │
+│           Nginx (80/443) → TLS termination → UFW firewall           │
+├─────────────────────────────────────────────────────────────────────┤
+│  TIER 2 ▸ Gateway Layer                                            │
+│           gateway.js :8080 → proxying · SSE · auth façade          │
+├──────────────────────┬──────────────────────┬───────────────────────┤
+│  TIER 3A            │  TIER 3B             │  TIER 3C             │
+│  Node.js            │  FastAPI (Python)     │  SVG Skill Engine    │
+│  server.js         │  brain.js :8000        │  :7070               │
+│  :3000-5002         │  BAN engine :8001      │  React SPA :3020     │
+├──────────────────────┴──────────────────────┴───────────────────────┤
+│  TIER 4 ▸ Persistence                                               │
+│           PostgreSQL │ Redis │ Neo4j │ SQLite │ Supabase           │
+└─────────────────────────────────────────────────────────────────────┘
 ```
-
----
 
 ## 🤖 Agent Network
 
@@ -106,231 +63,250 @@
   └────────────────┘ └────────────────┘ └────────────────┘
 ```
 
----
+## 🚀 Quick Start
 
-## ⚡ Live Stats
+### Prerequisites
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=bridgeaios&show_icons=true&theme=radical&bg_color=0a0a0a&title_color=00ff88&icon_color=00ff88&text_color=a0f0d0&border_color=00ff8844&border_radius=12&include_all_commits=true&count_private=true&hide_border=false" alt="bridgeaios GitHub stats card" height="180" />
-  <img src="https://github-readme-streak-stats.herokuapp.com/?user=bridgeaios&theme=radical&background=0a0a0a&ring=00ff88&fire=ff6b6b&currStreakLabel=00ff88&sideLabels=a0f0d0&dates=a0f0d0&border=00ff8844&border_radius=12" alt="bridgeaios GitHub streak stats" height="180" />
-</p>
+- Node.js >= 18.0.0
+- Python >= 3.10
+- Docker >= 20.10
+- PostgreSQL >= 14
+- Redis >= 6
 
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=bridgeaios&layout=compact&theme=radical&bg_color=0a0a0a&title_color=00ff88&text_color=a0f0d0&border_color=00ff8844&border_radius=12&langs_count=8&hide_border=false" alt="bridgeaios top languages card" height="150" />
-</p>
+### Installation
 
----
+```bash
+# Clone the repository
+git clone https://github.com/bridgeaios/THE-BRIDGE-AI-OS-V0.git
+cd THE-BRIDGE-AI-OS-V0
 
-## 🌍 Domain Network
+# Install dependencies
+npm install
+pip install -r requirements.txt
 
-```
-bridge-ai-os.com ──────────────── 🌐 Primary Platform
-abaas.bridge-ai-os.com ─────────── 🏗️  ABAAS Control Plane
-god.bridge-ai-os.com ───────────── 👁️  GOD MODE Topology
-brain.bridge-ai-os.com ─────────── 🧠  AI Brain Endpoint
-live.bridge-ai-os.com ──────────── 📡  Digital Twin · Live Wall
-svg.bridge-ai-os.com ───────────── 🎨  SVG Skill Engine UI
-         ▲
-         └── + 20 more sub-domains active
+# Copy environment configuration
+cp .env.example .env
 ```
 
----
+### Minimal Local Run
 
-## 🚀 What is Bridge AI OS?
+**Node.js Example:**
+```javascript
+import { Agent } from './src/agents/base-agent.js';
 
-> **Bridge AI OS** is a modular operating system for orchestrating AI workflows,  
-> tools, and agents into cohesive, production-ready systems.
+const agent = new Agent({
+  name: 'summarizer',
+  model: 'gpt-4',
+  maxTokens: 500
+});
+
+const result = await agent.run({
+  input: 'Summarize this text: The quick brown fox jumps over the lazy dog.',
+  context: { style: 'bullets' }
+});
+
+console.log(result.output);
 ```
-INPUT                    ORCHESTRATION                  OUTPUT
-──────               ─────────────────────           ──────────
-User Query    ──▶    Gateway → Brain → Agents  ──▶   AI Response
-API Call      ──▶    Tool Selection → Execute  ──▶   Structured Data  
-Webhook       ──▶    Pipeline → Transform      ──▶   Action / Event
+
+**Python Example:**
+```python
+from brain import BrainEngine
+
+brain = BrainEngine(
+    model_provider="openai",
+    api_key=os.getenv("OPENAI_API_KEY"),
+    temperature=0.7
+)
+
+response = brain.process(
+    prompt="What is the capital of France?",
+    stream=False
+)
+
+print(response["content"])
 ```
 
-| 🔑 Capability | Description |
-|:---|:---|
-| 🧠 **Modular AI Agents** | Composable agents with specialized roles — brain, OSINT, billing, SVG |
-| 🔗 **Tool Integration** | Connect any API, database, or service as a first-class tool |
-| ⚡ **Real-Time Orchestration** | WebSocket-powered dynamic workflow engine |
-| 🔐 **Zero-Trust Auth** | JWT + SIWE multi-layer authentication fabric |
-| 📊 **Revenue Engine** | Built-in billing, subscriptions, and monetisation layer |
-| 🌐 **26-Domain Fabric** | Production CDN mesh across Cloudflare infrastructure |
+### Docker Quick Start
 
----
+```bash
+# Start all services
+docker-compose up -d
 
-## 🛠️ Tech Stack
+# Verify services
+docker-compose ps
 
-<p align="center">
-  <img src="https://skillicons.dev/icons?i=nodejs,python,react,postgres,redis,docker,nginx,cloudflare,supabase,typescript,vite,git&theme=dark&perline=6" alt="Tech stack icons: Node.js, Python, React, PostgreSQL, Redis, Docker, Nginx, Cloudflare, Supabase, TypeScript, Vite, Git" />
-</p>
+# View logs
+docker-compose logs -f
+```
 
----
+## 📡 API Reference
 
-## 📡 Connect
+### Core Endpoints
 
-<p align="center">
-  <a href="https://bridge-ai-os.com">
-    <img src="https://img.shields.io/badge/🌐_Platform-bridge--ai--os.com-00ff88?style=for-the-badge&labelColor=0a0a0a" alt="Bridge AI OS platform link" />
-  </a>
-  <a href="https://github.com/bridgeaios/THE-BRIDGE-AI-OS-V0">
-    <img src="https://img.shields.io/badge/⚙️_Source-THE--BRIDGE--AI--OS--V0-0099ff?style=for-the-badge&labelColor=0a0a0a" alt="Source code repository" />
-  </a>
-  <a href="https://live.bridge-ai-os.com">
-    <img src="https://img.shields.io/badge/📡_Digital_Twin-LIVE-ff6b6b?style=for-the-badge&labelColor=0a0a0a" alt="Live digital twin" />
-  </a>
-  <a href="https://god.bridge-ai-os.com">
-    <img src="https://img.shields.io/badge/👁️_GOD_MODE-Topology-ffd700?style=for-the-badge&labelColor=0a0a0a" alt="GOD MODE topology dashboard" />
-  </a>
-</p>
+| Method | Endpoint | Description |
+|--------|----------|-------------|
+| POST | `/api/v1/agent/run` | Execute an agent with input |
+| GET | `/api/v1/agent/status/:id` | Get agent execution status |
+| POST | `/api/v1/tools/call` | Invoke a tool |
+| GET | `/api/v1/tools/list` | List available tools |
+| POST | `/api/v1/brain/query` | Query the AI brain |
+| WS | `/ws/stream` | Real-time streaming |
 
----
+### Example Request/Response
 
-<!-- ANIMATED ACTIVITY GRAPH -->
-<p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=bridgeaios&theme=react-dark&bg_color=0a0a0a&color=00ff88&line=00ff88&point=ffffff&area=true&area_color=00ff8822&hide_border=true" alt="bridgeaios GitHub activity contribution graph" />
-</p>
+**POST** `/api/v1/agent/run`
+```json
+{
+  "agent": "summarizer",
+  "input": "Text to summarize",
+  "options": {
+    "temperature": 0.7,
+    "maxTokens": 500
+  }
+}
+```
 
----
+**Response:**
+```json
+{
+  "id": "exec_abc123",
+  "status": "completed",
+  "output": "Summary text...",
+  "metadata": {
+    "tokens": 42,
+    "latency_ms": 1250
+  }
+}
+```
 
-<!-- ANIMATED FOOTER -->
-<p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:16213e,50:1a1a2e,100:0a0a0a&height=120&section=footer&text=Build.%20Bridge.%20Deploy.&fontSize=28&fontColor=00ff88&animation=fadeIn&fontAlignY=65" alt="Bridge AI OS footer banner" />
-</p>
-
-<p align="center">
-  <img src="https://komarev.com/ghpvc/?username=bridgeaios&color=00ff88&style=for-the-badge&label=PROFILE+VIEWS&labelColor=0a0a0a" alt="Profile view counter" />
-</p>
-‎README.md‎
-+126
--2
-Lines changed: 126 additions & 2 deletions
-Original file line number	Diff line number	Diff line change
-# THE-BRIDGE-AI-OS-V0
-The first attempt
-# Bridge AI OS (THE-BRIDGE-AI-OS-V0)
-
-Bridge AI OS is a modular, extensible operating system for orchestrating AI workflows, tools, and agents into cohesive, production-ready systems. It bridges data, models, and interfaces—turning fragmented AI capabilities into unified, deployable pipelines.
-
-## 🚀 Elevator Pitch
-
-Bridge AI OS enables developers to design, run, and scale AI-powered systems with composable architecture, real-time orchestration, and seamless API integration—reducing complexity while accelerating innovation.
-
-## 🌐 Visual Overview
-
-### Architecture Diagram
-![Detailed architecture diagram illustrating how UI, APIs, orchestration services, agents, tools, and data stores are connected in Bridge AI OS.](docs/assets/architecture-diagram.png)
-
-Caption: High-level architecture showing orchestration between UI, APIs, agents, tools, and data.
-
-### Data Flow Diagram
-![Detailed data flow diagram showing user input moving through orchestration and agents to produce AI output and responses.](docs/assets/data-flow-diagram.png)
-
-Caption: Data flow from user input through orchestration to AI output.
-
-## ✨ Features
-
-| Feature | Description |
-| --- | --- |
-| 🧠 **Modular AI Agents** | Composable agents with specialized roles.<br/><br/>`agent.run("summarize this text");` |
-| 🔗 **Tool Integration** | Plug into APIs, DBs, and services.<br/><br/>`tool.call("weather-api");` |
-| ⚡ **Real-time Orchestration** | Dynamic workflow execution engine. |
-| 🔐 **Secure Config** | Environment-based configuration. |
-
-## ⚡ Quick Start
-
-See project setup and bootstrap scripts in this repository. A quick-start guide can be expanded here as the setup process is finalized.
-
-## 📦 Usage
-
-Use Bridge AI OS modules to compose workflows, connect tools, and run agents in your target environment.
-
-## 🔌 API Reference
-
-API endpoints and contracts should be documented in this section (or linked docs) as interfaces stabilize.
-
-## 🎮 Demos & Tutorials
-
-- Live Playground: https://bridge-ai-os.dev/playground
-- Interactive Demo (GIF): add at `docs/assets/demo.gif`
-
-## 🖼 Gallery
-
-Add screenshots and architecture visuals under `docs/assets`.
+> **Note:** Full API documentation available at [docs.bridge-ai-os.com](https://docs.bridge-ai-os.com)
 
 ## ⚙️ Configuration
 
 ### Environment Variables
+
+| Variable | Description | Default |
+|----------|-------------|---------|
+| `NODE_ENV` | Environment mode | `development` |
+| `PORT` | Server port | `3000` |
+| `DATABASE_URL` | PostgreSQL connection string | Required |
+| `REDIS_URL` | Redis connection string | `redis://localhost:6379` |
+| `API_KEY` | External AI service API key | Required |
+| `MODEL_PROVIDER` | AI model provider | `openai` |
+| `JWT_SECRET` | JWT signing secret | Required |
+| `SUPABASE_URL` | Supabase project URL | Required |
+| `SUPABASE_KEY` | Supabase anon key | Required |
+
+### Example .env
+
 ```bash
-API_KEY=your_key
-MODEL_PROVIDER=openai
+# Core Configuration
+NODE_ENV=production
 PORT=3000
+
+# Database
+DATABASE_URL=postgresql://user:password@host:5432/bridgeaios
+
+# Redis
+REDIS_URL=redis://localhost:6379
+
+# AI Services
+OPENAI_API_KEY=sk-your-key-here
+MODEL_PROVIDER=openai
+
+# Authentication
+JWT_SECRET=your-jwt-secret-here
+
+# Supabase
+SUPABASE_URL=https://your-project.supabase.co
+SUPABASE_KEY=your-anon-key-here
 ```
 
-### .env Example
-```bash
-API_KEY=secure_key_here
-```
+> **⚠️ Security Note:** Never commit `.env` files. Use secrets management.
 
-Security Note: Never commit `.env` files. Use secrets management.
+## 🛠️ Tech Stack
+
+- **Backend**: Node.js, Python (FastAPI), TypeScript
+- **Frontend**: React, Vite
+- **Database**: PostgreSQL, Redis, Neo4j, Supabase
+- **Infrastructure**: Docker, Nginx, Cloudflare
+- **Real-time**: WebSocket, SSE
+- **Authentication**: JWT, SIWE
 
 ## 🧭 Roadmap
 
-Roadmap milestones and release targets can be tracked here.
-
-## 🤝 Contributing
-
-Contributions are welcome. Add contribution standards, setup instructions, and review workflow here.
+| Version | Target | Milestones |
+|---------|--------|------------|
+| v1.0.0 | Q2 2026 | Core orchestration engine, basic agents |
+| v1.1.0 | Q3 2026 | Agent plugins, tool registry expansion |
+| v1.2.0 | Q4 2026 | Advanced billing, subscription management |
+| v2.0.0 | Q1 2027 | Multi-region deployment, enterprise features |
 
 ## 🧪 Testing
 
 ```bash
-npm test          # unit tests
+# Run unit tests
+npm test
+
+# Run integration tests
 npm run integration
+
+# Run linting
 npm run lint
+
+# Run type checking
+npm run typecheck
+
+# Run all checks
+npm run check
 ```
 
-- Maintain ≥80% coverage
-- CI enforces checks
+Maintain ≥80% code coverage. CI enforces lint, typecheck, and test passing.
 
-## 📜 Changelog
+## 🤝 Contributing
 
-_Illustrative entries (replace with actual release tags/history for this repository)._
+We welcome contributions! Please follow these steps:
 
-### v1.0.0
-- Initial release
-- Core orchestration engine
+1. Fork the repository
+2. Create a feature branch (`git checkout -b feature/amazing-feature`)
+3. Commit your changes (`git commit -m 'feat: add amazing feature'`)
+4. Push to the branch (`git push origin feature/amazing-feature`)
+5. Open a Pull Request
 
-### v1.1.0
-- Added agent plugins
+### Code Standards
 
-Tip: Use automated changelog tools for future releases.
+- Run `npm run lint` before committing
+- Maintain ≥80% test coverage
+- Use TypeScript for new Node.js code
+- Follow PEP 8 for Python code
+
+## 🌍 Domain Network
+
+- **bridge-ai-os.com** — Primary Platform
+- **abaas.bridge-ai-os.com** — ABAAS Control Plane
+- **god.bridge-ai-os.com** — GOD MODE Topology
+- **brain.bridge-ai-os.com** — AI Brain Endpoint
+- **live.bridge-ai-os.com** — Digital Twin · Live Wall
+- **svg.bridge-ai-os.com** — SVG Skill Engine UI
+- *+ 20 more sub-domains active*
+
+## 📊 Live Stats
+
+[![GitHub Stats](https://github-readme-stats.vercel.app/api?username=bridgeaios&show_icons=true&theme=dark)](https://github.com/bridgeaios)
+[![GitHub Streak](https://github-readme-streak-stats.herokuapp.com/?user=bridgeaios&theme=dark)](https://github.com/bridgeaios)
+[![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=bridgeaios&layout=compact&theme=dark)](https://github.com/bridgeaios)
 
 ## 📄 License
 
-MIT License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙌 Credits
 
-- Core contributors
-- Open-source libraries
-- AI research community
+- **Core Contributors**: Bridge AI OS Team
+- **Open-Source Libraries**: FastAPI, Express.js, React, PostgreSQL, Redis, Nginx, Cloudflare
 
-## ♿ Accessibility
+---
 
-- All images include alt text
-- Mermaid diagrams include captions
-- Keyboard-accessible collapsible sections
-- Semantic headings used
+**Built with ❤️ by Bridge AI OS**
 
-## 🎨 Branding
-
-- Colors: `#4CAF50`, `#2196F3`, `#FFC107`
-- Assets location: `docs/assets`
-- Use consistent iconography
-
-## 🛡 Resilience
-
-- Works without images
-- Diagrams degrade gracefully
-- Fully readable in plain text
+*From v0 to infinity — the journey begins.*
