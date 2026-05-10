@@ -1,6 +1,6 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,30:001a33,60:00f7ff,100:00ff88&height=280&section=header&text=BRIDGE%20AI%20OS&fontSize=82&fontColor=ffffff&animation=fadeIn&fontAlignY=42&desc=◈%20AUTONOMOUS%20AI%20INFRASTRUCTURE%20◈%20v0%20→%20∞&descAlignY=62&descSize=20&descColor=00f7ff&stroke=00f7ff&strokeWidth=3" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=venom&color=0:0a0a0a,30:001a33,60:00f7ff,100:00ff88&height=280&section=header&text=BRIDGE%20AI%20OS&fontSize=82&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Autonomous%20AI%20Infrastructure%20%7C%20Global%20Runtime%20System&descAlignY=64&descAlign=50" width="100%"/>
 
 </div>
 
@@ -8,7 +8,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=1800&pause=700&color=00FF88&center=true&vCenter=true&width=750&lines=⚡+Initializing+Bridge+AI+OS...;🧠+Loading+Super+Brain+Core...;🔗+Connecting+26-Domain+CDN+Mesh...;🤖+Spawning+Autonomous+Agent+Swarm...;🔐+Engaging+Zero-Trust+Auth+Fabric...;🌐+Mounting+Cloudflare+Edge+Layer...;💀+ALL+SYSTEMS+ONLINE+—+GOD+MODE+ACTIVE" alt="Boot Sequence" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=20&duration=1800&pause=700&color=00FF88&center=true&vCenter=true&width=750&lines=⚡+Initializing+Bridge+AI+OS...;🧠+Loading+Super+Brain+Modules...;🌐+Connecting+26+Domain+Mesh...;🔐+Zero-Trust+Fabric+Secured;🤖+Agent+Swarm+Online;🚀+Runtime+Status%3A+OPERATIONAL" />
 
 </div>
 
@@ -61,7 +61,7 @@
 <div align="center">
 
 ```
-╔═══════════════════════════════════════════════════════════════════╗
+╔════════════════════════════════════════════════════════════════╗
 ║  TIER 0 ─ DNS / CDN                                               ║
 ║  ☁  CLOUDFLARE ANYCAST  ─  26 PRODUCTION DOMAINS  ─  DDoS SHIELD ║
 ╠══════════════════════════════╦════════════════════════════════════╣
@@ -69,19 +69,19 @@
 ║  Port 80 / 443               ║  UFW Firewall  ─  Rate Limiting    ║
 ╠══════════════════════════════╩════════════════════════════════════╣
 ║  TIER 2 ─ GATEWAY LAYER                                           ║
-║  ⚡ gateway.js :8080  ─  SSE  ─  Auth Facade  ─  Load Balancer   ║
-╠═══════════════╦═══════════════════╦═══════════════════════════════╣
-║  TIER 3A      ║  TIER 3B          ║  TIER 3C                      ║
-║  Node.js      ║  Python/FastAPI   ║  Visual Layer                 ║
-║  :3000 core   ║  :8000 brain.py   ║  :7070 SVG Engine             ║
-║  :3001 crm    ║  :8001 ban.py     ║  :3020 React SPA              ║
-║  :3002 bill   ║  AI inference     ║  Skill Graph UI               ║
-║  :4000 osint  ║  BAN engine       ║  Live dashboards              ║
-║  :5002 auth   ║                   ║                               ║
-╠═══════════════╩═══════════════════╩═══════════════════════════════╣
+║  ⚡ gateway.js :8080  ─  SSE  ─  Auth Facade  ─  Load Balancer    ║
+╠═══════════════╦═══════════════════╦════════════════════════════════╣
+║  TIER 3A      ║  TIER 3B          ║  TIER 3C                       ║
+║  Node.js      ║  Python/FastAPI   ║  Visual Layer                  ║
+║  :3000 core   ║  :8000 brain.py   ║  :7070 SVG Engine              ║
+║  :3001 crm    ║  :8001 ban.py     ║  :3020 React SPA               ║
+║  :3002 bill   ║  AI inference     ║  Skill Graph UI                ║
+║  :4000 osint  ║  BAN engine       ║  Live dashboards               ║
+║  :5002 auth   ║                   ║                                ║
+╠═══════════════╩═══════════════════╩════════════════════════════════╣
 ║  TIER 4 ─ PERSISTENCE                                             ║
-║  PostgreSQL  ─  Redis  ─  Neo4j  ─  SQLite  ─  Supabase          ║
-╚═══════════════════════════════════════════════════════════════════╝
+║  PostgreSQL  ─  Redis  ─  Neo4j  ─  SQLite  ─  Supabase           ║
+╚════════════════════════════════════════════════════════════════════╝
 ```
 
 </div>
@@ -300,7 +300,7 @@
 
 <div align="center">
 
-<img height="180" src="https://github-readme-stats.vercel.app/api?username=bridgeaios&show_icons=true&theme=tokyonight&hide_border=true&bg_color=0d1117&title_color=00f7ff&icon_color=00ff88&text_color=ffffff&border_radius=10" />
+<img height="180" src="https://github-readme-stats.vercel.app/api?username=bridgeaios&show_icons=true&theme=tokyonight&cache_seconds=1800" />
 &nbsp;
 <img height="180" src="https://streak-stats.demolab.com/?user=bridgeaios&theme=tokyonight&hide_border=true&background=0d1117&ring=00f7ff&fire=00ff88&currStreakLabel=00f7ff&border_radius=10" />
 
@@ -328,7 +328,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=2000&color=00F7FF&center=true&vCenter=true&width=700&lines=A+modular+AI+operating+system+that+orchestrates;agents,+tools,+and+workflows+into;production-grade+deployable+infrastructure." alt="Description" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=16&duration=3000&pause=2000&color=00F7FF&center=true&vCenter=true&width=700&lines=A+modular+AI+operating+system+that+orchestrates+agents%2C+services%2C+and+infrastructure;Designed+for+automation%2C+security%2C+billing%2C+visualization%2C+and+global+deployment;Built+to+bridge+AI+capabilities+into+real-world+runtime+systems" />
 
 </div>
 
@@ -353,7 +353,7 @@
 
 <div align="center">
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=900&pause=150&color=00FF88&background=0D111700&center=true&vCenter=true&multiline=true&width=600&height=160&lines=$+git+clone+bridge-ai-os;$+docker-compose+up+-d;$+curl+http://localhost:8080/health;{+%22status%22:+%22operational%22,+%22agents%22:+8+};$+open+http://god.bridge-ai-os.com;WELCOME+TO+GOD+MODE+🔮" alt="Quickstart" />
+<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=13&duration=900&pause=150&color=00FF88&background=0D111700&center=true&vCenter=true&multiline=true&width=600&height=160&lines=$+git+clone+https%3A%2F%2Fgithub.com%2Fbridgeaios%2Fbridgeaios;$+cd+bridgeaios;$+npm+install;++pip+install+-r+requirements.txt;$+docker+compose+up+-d;++node+gateway.js;$+system+status+--all;+%E2%9C%93+BRIDGE+AI+OS+ONLINE" />
 
 </div>
 
@@ -361,7 +361,7 @@
 
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,40:00f7ff,70:001a33,100:0a0a0a&height=140&section=footer&text=Build.%20Bridge.%20Deploy.&fontColor=ffffff&fontSize=26&animation=fadeIn&fontAlignY=65" width="100%"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00ff88,40:00f7ff,70:001a33,100:0a0a0a&height=140&section=footer&text=Build.%20Bridge.%20Deploy.&fontColor=ffffff&fontSize=26&animation=fadeIn" width="100%"/>
 
 </div>
 
@@ -387,6 +387,6 @@
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=12&duration=4000&pause=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=©+BRIDGE+AI+OS+—+ALL+SYSTEMS+OPERATIONAL+—+v0+→+∞" alt="Footer" />
+<img src="https://readme-typing-svg.demolab.com?font=Orbitron&size=12&duration=4000&pause=3000&color=00F7FF&center=true&vCenter=true&width=500&lines=©+BRIDGE+AI+OS+—+ALL+SYSTEMS+OPERATIONAL+•+AUTONOMOUS+RUNTIME+ACTIVE" />
 
 </div>
